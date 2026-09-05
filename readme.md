@@ -25,7 +25,7 @@ Anatome
 
 * **SID Resolution:** Dynamically fetches current process token user SID (OpenProcessToken) to protect system services while targeting the specific user.
 
-*Unicode Ready: Configured with wmain and _O_U16TEXT streams to ensure full support for UTF-16 paths with spaces and special characters.
+* **Unicode Ready:** Configured with wmain and _O_U16TEXT streams to ensure full support for UTF-16 paths with spaces and special characters.
 
 Portatio
 --
