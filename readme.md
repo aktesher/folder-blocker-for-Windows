@@ -4,7 +4,7 @@ Folder Blocker for Windows
 Praeambulum
 --
 
-This project was developed as a quick and practical solution to a system issue in Windows 10/11, where the default File Explorer GUI freezes, glitches, or fails to restrict folder access permissions properly. The tool directly interfaces with the Win32 API and Windows Security Architecture (AclAPI) to hard-lock write access (enforcing a strict read-only mode) for the current user's security identifier (SID) with recursive inheritance across all subdirectories and contained files, or seamlessly revert access rights to default.
+This project was developed as a quick practical solution to a system issue in Windows 10, where the default explorer gui and other system gui freezes or fails to restrict folder access permissions properly. The tool directly interfaces with the Win32 API to hard-lock write access with recursive inheritance across all subdirectories and contained files for the current user's security identifier - or seamlessly revert access rights to default.
 
 Anatome
 --
