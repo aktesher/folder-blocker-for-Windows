@@ -1,0 +1,25 @@
+# Игнорировать папки
+.vs/
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# Игнорировать файлы 
+*.exe
+*.dll
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.log
+*.recipe
+*.sdf
+*.ipch
+*.user
+*.suo
+*.vcxproj.user
